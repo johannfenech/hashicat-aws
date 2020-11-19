@@ -7,7 +7,7 @@
 terraform {
   backend "remote" {
     hostname = "app.terraform.io"
-    organization = "YOURORGANIZATION"
+    organization = "catena-test"
     workspaces {
       name = "hashicat-aws"
     }
